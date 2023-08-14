@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    justify-content: center;
+    background-color: #B4D7FE;
+    scale: 90%;
+}
+
+.contain{
+    padding: 10% 25%; 
+    height: 100%;
+    scale: 1.5;
+    
+}
+
+.container-bg{
+    display: flex;
+    justify-content: center;
+    /* padding: 20% 25%; */
+    height: 100%;
+
+    
+    border: 3px solid #5c9ce500;
+    border-radius: 15px;
+    background-color: #5C9CE5;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.humid, .wind, .precip, .uvwind, .avgtp, .corain{
+    padding: 1rem 1rem;
+    margin: 0.5rem 0.5rem;
+    background-color: #FFFFFF;
+    border: #FFFFFF 3px solid;
+    border-radius: 30px;
+    
+}
+.iconbar .plus{
+    justify-self: left;
+    margin-right: 2rem;
+    color: #FFFFFF;
+
+    
+}
+.box-icon{
+    display: flex;
+
+}
+.box-icon img{
+    background-color: #5C9CE5;
+    height: 24px;
+    width: 24px;
+    margin-top: 18px;
+    justify-content: right;
+    border-radius: 5px;
+    justify-self: right;
+    margin-left: 2rem;
+    
+}
+
+.iconbar .toggle{
+    justify-self: right;
+    margin-left: 2rem;
+    
+}
+
+.uvwind-bar{
+    
+    width: 50%;
+    size: 10%;
+
+}
+.rightWin{
+
+    padding: 1rem 1rem;
+    justify-content: center;
+    border-radius: 15px;
+    border: 10px solid #E4F1FF;
+    width: 65%;
+    margin-right: -2.5px;
+    margin-top: -2.5px;
+    margin-bottom: -3px;
+    background-color: #E4F1FF;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.lefttp{
+    
+    justify-content: center;
+    width: 35%;
+    font-family: "Poppins",sans-serif;
+    color: white;
+    background-image: url(assets/images/sunblue.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: 50px;
+        
+}
+
+.lefttp h1{
+    font-weight: 200;
+    font-size:5rem;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+}
+.lefttp h3{
+    font-weight: 400;
+    padding-bottom: 2rem;
+    
+     
+    
+}
+.wthdetails{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.wthdetails h4{
+    font-weight: 300;
+}
+
+
+
+.wthdetails div{
+    padding: 0rem 2rem;
+
+}
+
+.timeline div{
+    /* justify-content: center; */
+    /* background-color: #FFFFFF;
+    border: #FFFFFF; */
+    border-radius: 15px;
+}
+.timeline-bar-title{
+    justify-content: left;
+    /* margin-left: -60%; */
+    
+}
+.timeline-bar{
+    display: flex;
+}
+.timeline-bar-img{
+    /* margin-top: 24px;
+    padding-top: 3px; */
+    margin-left: 60%;
+    margin-bottom: 50px;
+    height: 48px;
+    width: 48px;
+    background-size: contain;
+    background-color: #5C9CE5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+    
+.timeline-img img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+.top{
+    justify-content: center;
+
+}
+.iconbar img{
+    padding: 0rem 10%;
+}
